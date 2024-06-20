@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard2"
+    android:orientation="vertical"
+
+    tools:context=".BadgeInfoActivity">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/main_color"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_marginStart="20dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            />
+        <TextView
+            android:id="@+id/subCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:text="Badges Information"
+            android:textColor="@color/white"
+            android:fontFamily="@font/hero_new_semi_bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:backgroundTint="#55000000"
+        android:background="@drawable/radius_8"
+
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/completeSession"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You've completed 0 session"
+            android:fontFamily="@font/hero_new_medium"
+            android:textSize="14sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        >
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/bronze"
+                />
+            <LinearLayout
+                android:layout_marginStart="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BRONZE"
+                    android:fontFamily="@font/hero_new_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color"
+
+                    />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete 3 sessions"
+                    android:fontFamily="@font/hero_new_regular"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_subheading"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/silver"
+                />
+            <LinearLayout
+                android:layout_marginStart="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SILVER"
+                    android:fontFamily="@font/hero_new_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color"
+
+                    />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete 9 sessions"
+                    android:fontFamily="@font/hero_new_regular"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_subheading"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gold"
+                />
+            <LinearLayout
+                android:layout_marginStart="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GOLD"
+                    android:fontFamily="@font/hero_new_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color"
+
+                    />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete 18 sessions"
+                    android:fontFamily="@font/hero_new_regular"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_subheading"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/platinum"
+                />
+            <LinearLayout
+                android:layout_marginStart="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLATINUM"
+                    android:fontFamily="@font/hero_new_semi_bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color"
+
+                    />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete 36 sessions"
+                    android:fontFamily="@font/hero_new_regular"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_color_subheading"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

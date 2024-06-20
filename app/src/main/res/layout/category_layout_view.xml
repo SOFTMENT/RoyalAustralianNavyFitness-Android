@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/radius_8"
+    android:backgroundTint="@color/white"
+    android:layout_marginBottom="16dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/examination"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/img"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physical Conditioning Program"
+        android:layout_toEndOf="@+id/img"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/hero_new_semi_bold"
+        android:textSize="14sp"
+        android:textColor="@color/text_color"
+        android:id="@+id/title"
+        />
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/title"
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find the workouts hereFind  hereFind the workouts here"
+        android:layout_toEndOf="@+id/img"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/hero_new_regular"
+        android:textSize="12sp"
+        android:textColor="@color/text_color_subheading"
+
+        />
+
+</RelativeLayout>

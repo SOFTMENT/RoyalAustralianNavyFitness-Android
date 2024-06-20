@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard2"
+    tools:context=".EntryActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageHead"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hero_new_semi_bold"
+        android:text="Royal Australian Navy Fitness"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:id="@+id/subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/hero_new_regular"
+        android:text="Physical Conditioning Program"
+        android:textColor="@color/text_color_subheading"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue as"
+        android:layout_above="@+id/navyMember"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/hero_new_bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="36dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/btn_color"
+        android:background="@drawable/radius_8"
+        android:text="Navy Member"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:fontFamily="@font/hero_new_medium"
+        android:textColor="@color/white"
+        android:id="@+id/navyMember"
+        android:layout_above="@+id/preJoiner"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/radius_8_strok"
+        android:text="Pre-Joiner"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:fontFamily="@font/hero_new_medium"
+        android:textColor="@color/white"
+        android:id="@+id/preJoiner"
+        />
+
+</RelativeLayout>

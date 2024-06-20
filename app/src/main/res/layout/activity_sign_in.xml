@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard1"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageHead"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hero_new_semi_bold"
+        android:text="Royal Australian Navy Fitness"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_above="@id/subheading"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/hero_new_bold"
+        android:textColor="@color/text_color"
+        />
+    <TextView
+        android:id="@+id/subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your email address &amp; password below"
+        android:layout_above="@id/email"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="32dp"
+        android:textSize="13sp"
+        android:fontFamily="@font/hero_new_regular"
+        android:textColor="@color/text_color_subheading"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/password"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/radius_8"
+        android:backgroundTint="@color/white"
+        android:hint="Email Address"
+        android:fontFamily="@font/hero_new_regular"
+        android:textSize="13sp"
+        android:paddingStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/forgotPassword"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/radius_8"
+        android:backgroundTint="@color/white"
+        android:hint="Password"
+        android:fontFamily="@font/hero_new_regular"
+        android:textSize="13sp"
+        android:paddingStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:text="Forgot Password?"
+        android:textSize="12sp"
+        android:fontFamily="@font/hero_new_regular"
+        android:textColor="@color/text_color"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/btn_color"
+        android:background="@drawable/radius_8"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:fontFamily="@font/hero_new_medium"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:layout_above="@+id/or"
+        />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_above="@+id/bottom_ll"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_color_subheading"
+        android:fontFamily="@font/hero_new_regular"
+        android:textSize="12sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottom_ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_subheading"
+            android:text="Don't have an account?"
+            android:fontFamily="@font/hero_new_regular"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/createNewAccount"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Create new account"
+            android:fontFamily="@font/hero_new_bold"
+            android:textSize="13sp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015496915632",
+    "project_id": "royal-australian-navy",
+    "storage_bucket": "royal-australian-navy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015496915632:android:8a78a596031352a6295975",
+        "android_client_info": {
+          "package_name": "au.gov.defence.royalaustraliannavyfitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyg_IIBVMwrswswzdkT7MGOZao6DoQtxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artboard1"
+    tools:context=".DisclaimerActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageHead"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hero_new_semi_bold"
+        android:text="Royal Australian Navy Fitness"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/hero_new_medium"
+        android:text="Disclaimer"
+        android:textColor="@color/text_color"
+        android:textSize="22sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:background="@drawable/radius_8"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll"
+        android:layout_below="@id/heading"
+        android:layout_marginStart="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hero_new_regular"
+            android:lineSpacingExtra="2dp"
+            android:textSize="13sp"
+            android:text="NAVY FITNESS APPLICATION TERMS, CONDITIONS AND DISCLAIMER
+\n\General Terms.
+\n•	The Navy Fitness Application (“Application”) is owned and operated by the Commonwealth of Australia acting through the Department of Defence (Defence). In these Terms of Use references to ‘Defence’ include its employees, agents, contractors, sub-contractors and volunteers where the context allows. By using this Application, you accept these Terms of Use and agree to be bound by them. Defence may at any time without notice revise these Terms of Use by updating this page and we encourage you to periodically visit this page by clicking the ‘Terms and Privacy’ link in the Application menu.
+\n•	Defence has created this Application to provide you with a guide to understanding the fitness requirements when applying for entry into the Navy and to support the development of fitness in preparation for initial training. Defence provides no guarantee that following the instructions and exercises contained in this Application will lead to your acceptance into the Australian Defence Force (ADF) or that you will necessarily satisfy the Army or Air Force Pre-Entry Fitness Assessments. Use of this Application is voluntary and is not a requirement to apply for entry into the ADF.
+\n•	Any costs associated with downloading, installing, accessing and using this Application remain your responsibility and are dependent on the service provider used; however Defence will not charge you to download or use this Application. To use some features of this Application and for updates, you must enable 3G, 4G or 5G and/or Wi-Fi data connection, location services and push notifications on your compatible mobile device and provide any approvals/consents in the manner required.
+\n•	You must have the bill payer's consent to use Internet or mobile Internet to use this Application. Some service providers and mobile devices may not provide access to mobile Internet and you must check with their service provider if unsure. Downloading, accessing and using this Application and accessing and using mobile content including web-based content will incur data charges. Any external links and Application features that require Internet or mobile Internet connection may also incur data charges. Data charges will remain your responsibility and will vary depending on the Internet service provider, usage plan or mobile carrier used (as applicable). You will need to refer to the terms of the contracts with your mobile carrier, usage plan or Internet service provider (as applicable) for costs. The charges for all data services will appear on your next mobile phone bill and/or Internet bill (as applicable). All general queries relating to carrier rates or mobile or Internet bills should be directed to your mobile phone carrier or Internet service provider (as applicable).
+\n•	If you are the driver of a vehicle (or other form of transport), you must not use this Application while the vehicle (or other form of transport) is moving or is stationary but not lawfully parked. You must comply with all applicable road rules and regulations before and while using this Application. In the interests of safety at all other times, Defence recommends that you only use this Application when it is lawful and safe to do so.
+\n•	Subject to your compliance with these Terms of Use, you are granted a limited, non-exclusive, revocable and non-transferrable licence to install, access and use the Application on mobile devices you personally own or lawfully control. You may only use the Application for your personal and non-commercial use. You may not decompile, reverse engineer, disassemble, convert or authorise any third party to decompile, reverse engineer, disassemble or otherwise convert, the Application to a human perceivable form; distribute or republish the Application in any way; resell, rent, lease or lend the Application; or transfer the Application or any content on the Application to any third party.
+\n•	This Application is compatible with Apple iPhone / iPod Touch running iOS 7 or greater and Most Android devices running Android 4.1 or greater.
+Seek Advice from Your Medical Professional.
+\n•	This Application contains information about and descriptions of physical exercises and fitness programs. This information is a guide only and does not take into consideration your personal circumstances, medical condition or fitness level.
+\n•	Before using this Application or attempting any fitness program or exercise contained or described in this Application, you should consult with your independent medical professional to ensure that you are aware of your current health and any physical restrictions or limitations that are appropriate to you. This Application is not a substitute for independent professional or medical advice. If there are any unanticipated changes to your health or physical condition at any time, you should immediately seek medical attention. You must consult a qualified medical professional if you have any questions about your medical condition or any injury.
+\n•	You require a moderate level of fitness to complete the exercises and fitness programs described in this Application. You are responsible for making your own enquiries and seeking independent advice before attempting any exercises or fitness programs described in this Application. If you have any pre-existing medical conditions or are in poor health you should consult with an appropriately qualified healthcare professional before attempting any exercises or fitness programs described in this Application.
+\n•	Nothing contained in this Application is intended to be used as medical advice. Before relying on any information or following any instructions contained within this Application, you should carefully consider the accuracy and relevance of the information and obtain appropriate independent professional medical advice.
+Use Application at Your Own Risk.
+\n•	You use this Application at your own risk. By using this Application, you agree to indemnify and hold harmless Defence from and against any direct or indirect liability, loss, damage cost or expense arising out of, or in connection with, your use of this Application or its use by anyone else who uses the Application by accessing your device or Account.
+\n•	You acknowledge that this Application is an information service only and that you are solely responsible for any exercises or fitness programs you choose to undertake. Defence does not provide any supervision of your activity and is not responsible for any injuries that you may suffer as a result of following any particular exercise, instruction or fitness program contained in this Application.
+Disclaimer.
+\n•	To the extent that Defence supplies any recreational service or recreational activities via this Application (within the meaning of the Competition and Consumer Act 2010 (Cth) or any State or Territory civil liability legislation), you acknowledge that your participation in such recreational services and activities may involve risks, including personal injury and death. You must assess all risks involved, including but not limited to any risks associated with your own health or physical condition, before participating in the recreational services and activities. Participation is voluntary and at your own risk. To the extent permitted by law, this condition constitutes a risk warning. You assume all risks in connection with your participation in recreational services and activities contained or described in this Application. To the maximum extent permitted by law, Defence excludes all liability arising from or in connection with (and you release Defence from all liability arising from or in connection with) your participation in recreational services and activities contained or described in this Application for: (1) death; (2) physical or mental injury (including the aggravation, acceleration or recurrence of such an injury); (3) the contraction, aggravation or acceleration of a disease; and (4) the coming into existence, the aggravation, acceleration or recurrence of any other condition, circumstance, occurrence, activity, form of behaviour, course of conduct or state of affairs: (a) that is or may be harmful or disadvantageous to you or the community; or (b) that may result in harm or disadvantage to you or the community, resulting from the supply of recreational services or recreational activities, but Defence does not exclude and you do not release liability for significant personal injury which is caused by Defence’s reckless conduct in the supply of recreational services or activities.
+\n•	This entire clause does not apply to any consumer guarantee under the Australian Consumer Law or to any liability of Defence for failure to comply with a consumer guarantee under the Australian Consumer Law. To the fullest extent permissible by law, this Application and its entire contents are provided on an ' as is' and ' as available' basis without any warranties of any kind either expressed or implied. Defence disclaims all warranties of merchantability, non-infringement and fitness for a particular purpose. Defence does not make any guarantees and does not provide any undertaking that the Application will be available at all times or that it will be error free, reliable or secure or free from viruses or other harmful components or that any defects will be corrected. You agree that you use the Application at your own risk and that Defence excludes (and you release) all liability except for any liability that cannot be excluded by law for any direct or indirect injury, loss and/or damage that you may suffer or incur as a result of using this Application however arising (including but not limited to negligence). This includes, but is not limited to, any loss resulting from any interference, malfunction, delays, failures or damage that occurs to your device or that occurs as a result of installing, updating or using this Application. You agree that you assume total responsibility and risk for your use of this Application and your sole remedy against Defence for dissatisfaction with this Application or any content is to stop using the Application or such content. This limitation of relief is a part of the bargain between the parties.
+Sign Up.
+\n•	You may only use this Application if you are an Australian citizen aged 16 years and 6 months or older and, if you are under 18 years of age, with the consent of your parent or legal guardian. The Application may only be used in Australia and Defence makes no representation that it is appropriate or available for use in all locations.
+\n•	You will not be able to use the Application unless you have signed up in the manner required (which includes accepting these Terms of Use and the terms of Defence’s Privacy Policy and Collection Statement). As part of the sign-up process, you will be required to create an account using your name, email address, and selecting a password in the manner required (Account). You will only be required to sign up once; however, you may be required to log in each time you wish to use the Application.
+\n•	You may never use another person’s device or Account without permission.
+\n•	You are responsible for any activity under your device and / or Account. It is your sole responsibility to control access to and use of your device and / or Account. Defence will not be responsible or liable for any loss or damage arising from your failure to comply with this provision.
+\n•	Defence retains the right and absolute discretion to terminate or suspend your Account and / or access to this Application without notice for any reason, including if it believes that you are abusing or tampering with the Application in any way, that you have breached these Terms of Use, or that you have engaged in any unlawful or other improper conduct that may jeopardise the proper administration of this Application. Defence’s legal rights to recover damages or other compensation from such an offender are reserved.
+Using the Application.
+\n•	This Application provides you with information about Navy entry requirements and descriptions of a variety of fitness exercises that you may choose to follow.
+\n•	To monitor your progress and to generate exercises appropriate to your fitness level, you must ensure that all data and information entered into the Application is accurate and complete and genuinely reflects your performance in each exercise.
+\n•	Fitness programs, exercises, recommendations, and results generated by this Application are generic, pre-programmed, automated responses based on the data and information that you enter into this Application. They do not take into account any other factors that may be relevant to you and may not be appropriate in your personal circumstances. Such fitness programs, exercises, recommendations, and results are provided for information purposes only and do not constitute medical or professional advice. To the extent permitted by law, Defence is not liable or responsible for any fitness programs, exercises, recommendations, and results generated through your use of this Application.
+Contacting You and Your Privacy.
+\n•	Defence will collect, use, and disclose your Personal Information in accordance with its Privacy Policy and Collection Statement and these Term of Use.
+\n•	By using this Application and providing your details in the manner required, you agree that Defence (including the ADF and their agents and contractors) may contact you to provide you with information about applying for opportunities with the ADF and with other direct marketing materials, including via the Application and electronically.
+Rights to the Deletion of Personal Information.
+\n•	To withdraw your personal data from the Navy Fitness App, open the Application, go to the Settings screen and select Delete Account.
+Intellectual Property.
+\n•	All right, title and interest in all intellectual property rights in and relating to this Application and Defence’s brands, logos, images, buttons, codes, layout, text, content and products and services as displayed on this Application (Brand Features) and the content on the Application are owned by Defence, its licensors and / or promotional partners and may not be used by you except as permitted in these Terms of Use. Your use of this Application will not under any circumstances be taken to constitute a transfer, assignment, or grant of any ownership rights in any of the Brand Features or the Application. Defence, on a case-by-case basis and to the extent required, grants to you a limited, non-exclusive licence to use the Brand Features solely for the purpose, and to the extent necessary, to enable you to use this Application.
+Governing Law.
+\n•	These Terms of Use are governed and shall be construed and applied in accordance with the laws of New South Wales, and you submit to the jurisdiction of the courts of New South Wales or the Federal Court sitting in New South Wales to determine any matter or dispute which arises under these Terms of Use.
+\n•	Defence reserves the right to change the Application in any way without notice to you. Even if you have an Account, your ability to access and use the Application may be terminated at any time without notice to you. If you do not agree to these Terms of Use, you must immediately exit the Application and delete the Application from your device.
+Contact Us.
+\n•	Any queries in relation to using this Application can be directed to pcp.team@defence.gov.au
+Privacy Collection Statement.
+\n•	The Department of Defence (Defence) collects personal information about you via the Navy Fitness mobile application (Application) including but not limited to your full name and email address and as otherwise provided by you via the Application. Defence does not intend to collect personal information from any person under 16 years and 6 months of age. Please do not provide personal information if you are aged under 16 years and 6 months. Personal information is collected for the purpose of administering the Application and to allow you to measure your progress and results. You also acknowledge that a further primary purpose of collection of your personal information is to allow Defence to contact you with direct marketing materials (including recruitment materials) including via the Application and electronically, and you expressly consent to receiving such materials.
+\n•	For the purposes described above, your information may be shared with the Australian Defence Force, other Australian Government agencies/departments, Defence’s promotional partners, professional service providers, and other trusted third parties, either in Australia or overseas.
+\n•	Failure to provide personal information to Defence will result in you being unable to use the Application.
+\n•	The Application may store natively on your device personal information you enter for the purpose of using the Application, and information about your usage of the Application. Defence does not collect this information or share it with any third party.
+\n•	Defence takes reasonable steps to ensure the security of all information collected, including that the information is protected from misuse and loss and from unauthorised access, modification or disclosure. For example, your personal information is maintained in a secure environment which can be accessed only by authorised personnel. However, no data transmission over the internet or information stored on servers accessible through the internet can be guaranteed to be fully secure.
+\n•	Defence takes reasonable steps to destroy or de-identify your personal information once Defence no longer needs it or has been instructed by you to permanently remove or suppress your personal information.
+\n•	Defence’s Privacy Policy contains information about how you can access and correct your personal information, how you can lodge a complaint regarding the handling of your personal information, and how any complaint will be handled by Defence. You may contact Defence Privacy with any queries via email: defence.privacy@defence.gov.au."
+            android:textAlignment="center" />
+    </androidx.core.widget.NestedScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hero_new_regular"
+            android:text="Click the tick to agree" />
+
+        <ImageView
+            android:id="@+id/done"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/check" />
+    </LinearLayout>
+
+
+</RelativeLayout>
